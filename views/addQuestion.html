@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Question</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add a Question</h1>
+        <form id="addQuestionForm">
+            <label>Question: <input type="text" name="question" required></label>
+            <label>Option 1: <input type="text" name="options[]" required></label>
+            <label>Option 2: <input type="text" name="options[]" required></label>
+            <label>Option 3: <input type="text" name="options[]" required></label>
+            <label>Option 4: <input type="text" name="options[]" required></label>
+            <label>Correct Answer: <input type="text" name="correctAnswer" required></label>
+            <button type="submit">Add Question</button>
+        </form>
+    </div>
+    <script src="/js/addQuestion.js"></script>
+</body>
+</html>

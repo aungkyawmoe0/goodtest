@@ -1,0 +1,22 @@
+[
+  {
+    "question": "who r u?",
+    "options": [
+      "akm",
+      "akm1",
+      "akm2",
+      "akm3"
+    ],
+    "correctAnswer": "akm1"
+  },
+  {
+    "question": "Hello",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "four"
+    ],
+    "correctAnswer": "four"
+  }
+]
